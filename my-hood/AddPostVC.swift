@@ -32,10 +32,6 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     @IBAction func makePostBtnPressed(sender: AnyObject) {
         if let title = titleField.text, let desc = descField.text, let img = postImg.image {
